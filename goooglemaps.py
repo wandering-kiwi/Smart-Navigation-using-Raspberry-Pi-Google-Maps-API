@@ -46,9 +46,7 @@ print()
 print("VAN TIME =", calculation1, "> SCOOTER TIME", calculation2)
 d_goog = mode='driving'
 c_goog = mode = "cycling"
-print("DRIVING: 4 mins - 1.3 miles")
-print("CYCLING: 5 mins - 0.85 miles")
-print("CB23 6BT, Swansley Ln, Lower Cambourne, Cambourne, Cambridge : CB23 6FB, Woodfield Ln, Lower Cambourne, Cambourne, Cambridge : Merle Way, Lower Cambourne, Cambourne, Cambridge : CB23 6FT, Medlar Ln, Lower Cambourne, Cambourne, Cambridge")
-print("0.842908")
-print("DRIVING: 5.24 mins - 0.6 miles")
-print("CYCLING: 1.35 mins - 0.3 miles")
+print(p_1.calculate(d_goog))
+print(p_2.calculate(c_goog))
+print(p_3.calculate(d_goog))
+print(p_4.calculate(c_goog))

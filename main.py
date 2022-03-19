@@ -1,3 +1,11 @@
+"""
+OUR PROJECT USES THE GOOGLEMAPS API TO CALCULATE HOW FAST IS IS TO DELIVER PACKAGES
+BETWEEN DESTINATIONS. WE TAKE ON BOARD TRAFFIC, THE NUMBER OF DELIVERIES AND THE
+NEXT DELIVERY POINT. THIS WOULD HELP THE EFFICIENCY OF DELIVERING BY USING SCOOTERS INSTEAD OF VANS.
+"""
+
+
+
 #IMPORTING ALL LIBARIES FOR GEOGRAPHIC CALCULATIONS
 import pandas as pd
 from geopy.geocoders import GoogleV3
@@ -52,9 +60,11 @@ print()
 #gmap = googlemaps.Client(key=API)
 
 #OUTPUTTING ALL OF OUR RESULTS
+#VAN TIME VS SCOOTER TIME RESULTS
 print("VAN TIME =", calculation1, "> SCOOTER TIME", calculation2)
 d_goog = mode='driving'
 c_goog = mode = "cycling"
+#OUTPUTTING CALCULATONS OF ALL TIMES WITH DRIVING AND CYCLING
 print(p_1.calculate(d_goog))
 print(p_2.calculate(c_goog))
 print(p_3.calculate(d_goog))

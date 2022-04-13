@@ -3,7 +3,7 @@ from geopy.geocoders import GoogleV3
 import geopy.distance
 import googlemaps
 
-API = 'AIzaSyCNosOBiQiS0nlJMjrKgBOQLUum05Khs94'
+API = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 geolocator = GoogleV3(api_key=API)
 
 #print(type(geolocator))
